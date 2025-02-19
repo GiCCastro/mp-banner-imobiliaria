@@ -6,7 +6,7 @@
     --white: #fff;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -16,11 +16,10 @@ body {
     box-sizing: border-box;
     background-color: var(--background-color);
     padding: 42px 92px 131px;
-
 }
 
-a{
-text-decoration: none;
+a {
+    text-decoration: none;
 }
 
 .navbar {
@@ -36,16 +35,16 @@ text-decoration: none;
     padding: 0 16px;
 }
 
-.navbar-contact img{
+.navbar-contact img {
     width: 13px;
 }
 
-.navbar-contact__contact{
+.navbar-contact__text {
     font-size: 16px;
     font-weight: 700;
 }
 
-.navbar-contact a{
+.navbar-contact a {
     color: var(--icons-and-buttons);
 
 }
@@ -57,7 +56,7 @@ text-decoration: none;
     gap: 55px;
 }
 
-.hero-content{
+.hero-content {
     display: flex;
     flex-direction: column;
     gap: 22px;
@@ -75,8 +74,12 @@ text-decoration: none;
     width: 100%;
     height: 24px;
     background-color: var(--icons-and-buttons);
+}
+
+.hero-content .hero-info .content {
     padding: 5px 13px;
 }
+
 
 .hero-content .hero-info h2 {
     font-size: 11.55px;
@@ -106,8 +109,8 @@ ul.property-list {
 }
 
 li.property-list__item {
-    margin:0;
-    padding:0px 24px;
+    margin: 0;
+    padding: 0px 24px;
     border-radius: 31px;
     background-color: var(--white);
     height: 26px;
@@ -116,53 +119,53 @@ li.property-list__item {
     cursor: pointer;
 }
 
-li.property-list__item:hover{
+li.property-list__item:hover {
     border-color: var(--icons-and-buttons);
     padding: 2px 26px;
 }
 
-li.property-list__item a{
+li.property-list__item a {
     font-size: 11.55px;
     color: var(--text-color);
 }
 
-.hero-image img{
+.hero-image img {
     max-width: 651px;
     width: 100%;
     height: auto;
 }
 
-.footer-stats{
+.footer-stats {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
 }
 
-.stats-item{
+.stats-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 245px;
 }
 
-.stats-item h2{
+.stats-item h2 {
     font-size: 40px;
     font-weight: 700;
     color: var(--icons-and-buttons);
 }
 
-.stats-item p{
+.stats-item p {
     font-size: 20px;
     font-weight: 500;
     color: var(--text-color);
 }
 
- img.whatsapp-link{
+img.whatsapp-link {
     width: 63px;
     position: fixed;
     right: 0;
     bottom: 0;
     cursor: pointer;
-    margin: 0 12px 8px 0 ;
+    margin: 0 29px 12px 0;
 }

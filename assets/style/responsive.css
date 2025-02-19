@@ -1,0 +1,77 @@
+@media(max-width: 1000px) {
+    body {
+        padding: 36px 72px 97px;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .hero-content .hero-description {
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: 500;
+        color: var(--text-color);
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    .navbar-logo {
+        height: 12px;
+    }
+
+    .navbar-contact img {
+        width: 11px;
+        height: 11px;
+    }
+
+    .navbar-contact__text {
+        font-size: 11px;
+    }
+
+    .hero-section {
+        flex-wrap: wrap;
+        margin: 19px 0 53px 0;
+    }
+
+    body {
+        padding: 36px 27px 97px;
+    }
+
+    .footer-stats {
+        justify-content: center;
+        gap: 13px;
+    }
+
+    img.whatsapp-link {
+        width: 46px;
+        margin: 0 12px 15px 0;
+    }
+}
+
+@media(max-width: 400px) {
+
+    body {
+        padding: 36px 16px 97px;
+    }
+
+    .hero-content h1,
+    .stats-item h2 {
+        font-size: 36px;
+    }
+
+    .stats-item p {
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width: 320px) {
+    .hero-content .hero-info h2 {
+        font-size: 11px;
+    }
+}
